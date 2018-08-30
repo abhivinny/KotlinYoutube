@@ -1,0 +1,40 @@
+# Gradle
+build/
+.gradle/
+build.properties
+
+# Local configuration
+local.properties
+config/secure/nexus.properties
+
+# OSX documents
+.DS_Store
+
+# IntelliJ
+*.idea
+/.idea/
+.idea/*
+!.idea/inspectionProfiles
+*.iws
+*.iml
+captures/
+
+# Editor temporary files
+*.swp
+
+# Script temporaries
+message.txt
+messagewriter.sh
+
+# Python compiles
+*.pyc
+
+# Node modules
+*node_modules
+
+# Miscellaneous
+output/
+.bak
+.class
+**/jacoco.exec
+reports/profile
